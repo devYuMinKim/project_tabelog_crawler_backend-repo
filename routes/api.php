@@ -16,5 +16,8 @@ Route::post('/login', [UserController::class, 'login']);
 Route::middleware('auth:sanctum')->post('/logout', [UserController::class, 'logout']);
 
 Route::get('/restaurants', [RestaurantController::class, 'index']);
-
 Route::get('/restaurants/{id}', [RestaurantController::class, 'getStoreById']);
+
+Route::post('/reviews', 'ReviewController@create');
+Route::put('/reviews/{review}', 'ReviewController@update');
+Route::delete('/reviews/{review}', 'ReviewController@delete');
