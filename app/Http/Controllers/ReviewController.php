@@ -35,6 +35,7 @@ class ReviewController extends Controller
     {
         $validated = $request->validated();
 
+        // 인증된 사용자의 id와 리뷰 작성자의 id가 일치하는지 확인
         if ($request->user()->id !== $review->author_id) {
             return response()->json([
                 'message' => '실행 권한이 없습니다'
@@ -55,6 +56,7 @@ class ReviewController extends Controller
 
     public function delete(Request $request, Review $review)
     {
+        // 인증된 사용자의 id와 리뷰 작성자의 id가 일치하는지 확인
         if ($request->user()->id !== $review->author_id) {
             return response()->json([
                 'message' => '실행 권한이 없습니다'

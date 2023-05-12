@@ -3,6 +3,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
+// 프론트엔드로부터 입력받는 데이터를 검증하는 클래스
 class CreateReviewRequest extends FormRequest
 {
   public function authorize()
