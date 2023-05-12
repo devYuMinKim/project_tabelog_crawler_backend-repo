@@ -1,6 +1,6 @@
 # Fukuoka Restaurant Crawler Backend-repo
 
-> [team-5-backend](https://github.com/devYuMinKim/team-5-backend) 레포지토리와 유사한 내용의 코드를 담고 있습니다. 학습 목적으로 추가한 레포지토리입니다. <br>
+> [team-5-backend](https://github.com/devYuMinKim/team-5-backend) 레포지토리와 유사한 내용의 코드를 담고 있습니다. 개인적인 학습 목적으로 생성한 레포지토리입니다. <br>
 > 이 프로젝트는 해당 레스토랑 정보를 일본 후쿠오카의 Tabelog로부터 크롤링하여 사용자가 사용하기 쉬운 UI로 레스토랑을 둘러볼 수 있도록 제공하는 웹 서비스의 백엔드 부분입니다. 백엔드는 Laravel 프레임워크를 사용하고 있습니다.
 
 ## 요구 사항
