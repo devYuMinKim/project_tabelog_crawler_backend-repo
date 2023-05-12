@@ -1,4 +1,4 @@
-# Fukuoka Restaurant Crawler Backend
+# Fukuoka Restaurant Crawler Backend-repo
 
 > 이 프로젝트는 해당 레스토랑 정보를 일본 후쿠오카의 Tabelog로부터 크롤링하여 사용자가 사용하기 쉬운 UI로 레스토랑을 둘러볼 수 있도록 제공하는 웹 서비스의 백엔드 부분입니다. 백엔드는 Laravel 프레임워크를 사용하고 있습니다.
 
